@@ -7,7 +7,7 @@ document.getElementById('change_button').addEventListener('click', function() {
 
       if (block) {
         document.querySelectorAll('.grid-item').forEach(item => {
-          item.style.backgroundColor = 'transparent';
+          item.style.backgroundColor = 'blue';
         });
         block.style.backgroundColor = color;
       } else {
@@ -17,6 +17,6 @@ document.getElementById('change_button').addEventListener('click', function() {
 
     document.getElementById('reset_button').addEventListener('click', function() {
       document.querySelectorAll('.grid-item').forEach(item => {
-        item.style.backgroundColor = 'transparent';
+        item.style.backgroundColor = 'blue';
       });
     });
